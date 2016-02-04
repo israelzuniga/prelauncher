@@ -2,7 +2,7 @@
 	.col-md-5.col-md-offset-1.col-sm-6.hidden-xs.refer-left
 	.col-md-5.col-sm-6.col-xs-12
 		#copy
-			%h3 Don't leave your friends behind 
+			%h3 Don't leave your friends behind
 			%h1 Invite friends & Earn product
 
 		%input.form-control{value: "#{@user.referral_url(root_url)}"}
@@ -13,8 +13,8 @@
 
 %aside.text-center
 	%h4
-		%strong= pluralize(@user.number_of_referrals, 'friend')
-		%span have joined so far. 
+		%strong= pluralize(@user.number_of_referrals, 'amigo')
+		%span se han unido.
 
 - if Prize.all.any?
 	%section#prizes
@@ -23,5 +23,5 @@
 		= render partial: "prizes/prize_item", collection: Prize.all.order("number_of_referrals asc"), as: :prize
 
 %footer#footer
-	%p All rights reserved 
+	%p All rights reserved
 	= link_to "Privacy Policy", privacy_path, remote: true

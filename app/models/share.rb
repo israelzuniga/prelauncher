@@ -15,9 +15,6 @@ class Share < ActiveRecord::Base
 		"https://www.facebook.com/sharer/sharer.php?u=#{user.referral_url(root_url)}&title=#{data[:facebook_title]}"
 	end
 
-	def google_plus_link(root_url)
-	  "https://plus.google.com/share?url=#{user.referral_url(root_url)}"
-	end
 
 	def twitter_link(root_url)
 		"https://twitter.com/intent/tweet?text=#{URI.escape(data[:twitter_message])}&url=#{user.referral_url(root_url)}"
@@ -27,9 +24,6 @@ class Share < ActiveRecord::Base
 		"https://www.linkedin.com/shareArticle?mini=true&url=#{user.referral_url(root_url)}&title=#{data[:linkedin_title]}&summary=#{data[:linkedin_message]}&source="
 	end
 
-	def pinterest_link(root_url)
-		"https://www.pinterest.com/pin/create/button/?url=#{URI.escape(user.referral_url(root_url))}&media=#{URI.escape(Setting.pinterest_image.present? ? root_url + Setting.pinterest_image.url : '')}&description=#{URI.escape(data[:pinterest_description])}"
-	end
 
 
 end
