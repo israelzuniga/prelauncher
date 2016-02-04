@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.1'
+gem 'rails', '4.2.5'
 # Use PostgreSQL as the database for Active Record
 gem 'pg'
 # Use SCSS for stylesheets
@@ -25,7 +25,7 @@ gem 'haml-rails'
 # A banch of useful helpers for HTML forms
 gem 'simple_form'
 
-# User authentication 
+# User authentication
 gem 'devise'
 
 gem 'unicorn'
@@ -48,4 +48,3 @@ gem 'will_paginate-bootstrap'
 group :development, :test do
 
 end
-
