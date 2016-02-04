@@ -18,3 +18,5 @@
 
 # Ignore database configs
 config/database.yml
+
+config/database.yml
