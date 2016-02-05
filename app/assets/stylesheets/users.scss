@@ -24,12 +24,13 @@
 	font-size: 50px;
 	color: rgb(255,255,255);
 	font-weight: 400;
-  line-height: 55px;
+  font-size: 51px;
+  line-height: 56.1px;
 	font-family: "futura-pt";
-	width: auto;
 	text-align: center;
 	margin: 0px auto;
 	text-transform: uppercase;
+  text-rendering: optimizeLegibility;
 }
 
 .cover-subtitle{
@@ -79,7 +80,7 @@
     width: 100%;
     background-color: #4EC9ED;
     color: #FFF;
-    font-family: Lato;
+    font-family: "futura-pt";
     float: left;
     display: inline-block;
     margin-left: -5px;
@@ -89,7 +90,7 @@
 	font-size: 16px;
 	color: #FFF;
 	font-weight: 400;
-	font-family: Lato;
+	font-family: "futura-pt";
 	text-transform: none;
 	text-align: center;
 	margin: 0px auto;
@@ -126,7 +127,7 @@
 	font-size: 25px;
 	color: #1ABC9C;
 	font-weight: 800;
-	font-family: Lato;
+	font-family: "futura-pt";
 	margin: 5px auto 25px 50px;
 	text-align: left;
 	width: auto;
@@ -147,7 +148,7 @@
     font-size: 16px;
     color: #FFF;
     font-weight: 400;
-    font-family: Lato;
+    font-family: "futura-pt";
     margin: 0px auto 0px 50px;
     text-align: left;
     width: auto;
@@ -226,7 +227,7 @@ aside h4{
     font-size: 18px;
     color: #333;
     font-weight: 400;
-    font-family: Lato;
+    font-family: "futura-pt";
     margin-top: 0px;
     margin-bottom: 0px;
     text-transform: none;
