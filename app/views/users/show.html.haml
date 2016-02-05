@@ -10,17 +10,17 @@
 
 		= render partial: "social_sharing"
 
-
-%aside.text-center
-	%h4
-		%strong= pluralize(@user.number_of_referrals, 'amigo')
-		%span se han unido.
-
 - if Prize.all.any?
+
 	%section#prizes
 		.progressbar{style: "width: #{@user.progress * 100}%"}
 			.progress-box
 		= render partial: "prizes/prize_item", collection: Prize.all.order("number_of_referrals asc"), as: :prize
+
+		%aside.text-center
+			%h4
+				%strong= pluralize(@user.number_of_referrals, 'amigo')
+				%span se han unido. ¡Sigue invitando!
 
 %footer#footer
 	%p All rights reserved

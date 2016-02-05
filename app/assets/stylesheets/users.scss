@@ -9,8 +9,22 @@
 	top: 0px;
 	width: 100%;
 	display: table;
+  letter-spacing: 2px;
+  line-height: 32.5px;
+  text-rendering: optimizeLegibility;
 }
-
+.logo{
+  background-image: image(logo);
+  top: 0;
+  left: 0;
+}
+.last-box{
+  width: 100%;
+  background-color: gray;
+  position: absolute;
+  padding-top: 1%;
+  bottom: 0;
+}
 .cover{
 	margin-left: auto;
 	margin-right: auto;
@@ -27,10 +41,13 @@
   font-size: 51px;
   line-height: 56.1px;
 	font-family: "futura-pt";
-	text-align: center;
-	margin: 0px auto;
+  margin: 50px auto;
+	margin-top: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
 	text-transform: uppercase;
   text-rendering: optimizeLegibility;
+  align-content: center;
 }
 
 .cover-subtitle{
@@ -44,9 +61,9 @@
   margin-top: 20px;
   margin-left: 0px;
   margin-right: 0px;
+  margin: 50px auto;
 	font-family: "futura-pt";
 	text-align: center;
-	margin: 50px auto;
 	text-transform: uppercase;
   text-rendering: optimizeLegibility;
 }
@@ -116,22 +133,28 @@
 	font-size: 18px;
 	color: #FFF;
 	font-weight: 400;
-	font-family: Futura;
+	font-family: "futura-pt";
 	margin: 30px auto 0px 50px;
 	text-align: left;
 	width: auto;
 	text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 32.5px;
+  text-rendering: optimizeLegibility;
 }
 
 #copy h1 {
 	font-size: 25px;
-	color: #1ABC9C;
+	color: rgb(255, 97, 47);
 	font-weight: 800;
 	font-family: "futura-pt";
 	margin: 5px auto 25px 50px;
 	text-align: left;
 	width: auto;
 	text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 32.5px;
+  text-rendering: optimizeLegibility;
 }
 
 #refer input {
@@ -350,6 +373,7 @@ aside h4{
     margin-right: auto;
   }
 
+
   #refer input{
     margin-left: auto;
     margin-right: auto;
@@ -436,13 +460,7 @@ aside h4{
     width: 45%;
   }
 
-  .cover-title {
-  	font-size: 36px;
-  }
 
-  .cover-subtitle {
-    font-size: 18px;
-  }
 
   .contact-socials li {
     padding: 0px 10px;

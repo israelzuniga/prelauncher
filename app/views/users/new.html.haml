@@ -1,7 +1,9 @@
 %section#main{style: "background-image: url(#{asset_url(Setting.cover_image.url)});"}
+	.logo
 	.cover
-		%h1.cover-title CONTRATA ENERGÍA SOLAR SIN INVERTIR UN SÓLO PESO. 
+		%h1.cover-title CONTRATA ENERGÍA SOLAR SIN INVERTIR UN SÓLO PESO.
 		%h3.cover-subtitle Ahorra hasta un 34% en tu recibo de luz con un clic.
-		#form-wrapper
-			= render "form"
-			%small * We promise no spam, cause we hate spam
+		.last-box
+			#form-wrapper
+				= render "form"
+				%small * We promise no spam, cause we hate spam
