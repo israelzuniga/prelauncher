@@ -41,13 +41,15 @@
   font-size: 51px;
   line-height: 56.1px;
 	font-family: "futura-pt";
-  margin: 50px auto;
+  margin: 10px auto;
 	margin-top: 10px;
   margin-left: 0px;
   margin-right: 0px;
+  padding-left: 5%;
 	text-transform: uppercase;
   text-rendering: optimizeLegibility;
   align-content: center;
+  text-align: left;
 }
 
 .cover-subtitle{
@@ -58,12 +60,14 @@
   letter-spacing: 2px;
   line-height: 32.5px;
   margin-bottom: 20px;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-left: 0px;
   margin-right: 0px;
-  margin: 50px auto;
+  margin: 10px;
+  padding-left: 5%;
 	font-family: "futura-pt";
-	text-align: center;
+	text-align: left;
+  align-content: center;
 	text-transform: uppercase;
   text-rendering: optimizeLegibility;
 }
@@ -126,7 +130,11 @@
 	padding-top: 50px;
 	margin-bottom: 50px;
 	background-size: cover;
-	border-bottom: medium none;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(0,0,0);
+}
+#refer strong{
+  text-transform: uppercase;
 }
 
 #copy h3{
@@ -246,16 +254,18 @@
 	opacity: 0.8;
 }
 
-aside h4{
+.bside{
     font-size: 18px;
     color: #333;
     font-weight: 400;
     font-family: "futura-pt";
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 10px;
+    margin-bottom: 5%;
+    padding-top: 0%;
+    padding-bottom: 0%;
     text-transform: none;
+    text-align: center;
 }
-
 
 
 

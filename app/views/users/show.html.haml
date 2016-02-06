@@ -2,13 +2,16 @@
 	.col-md-5.col-md-offset-1.col-sm-6.hidden-xs.refer-left
 	.col-md-5.col-sm-6.col-xs-12
 		#copy
-			%h3 Don't leave your friends behind
-			%h1 Invite friends & Earn product
+			%h3 NO DEJES FUERA A TUS AMIGOS
+			%h1 INVITA A TUS AMIGOS Y OBTÉN HASTA UN AÑO DE LUZ GRATIS.
 
 		%input.form-control{value: "#{@user.referral_url(root_url)}"}
-		%p Share your unique link via emails or social networks and earn prizes for each friend who signs up.
+		%p Comparte esta liga por correo electrónico, Facebook, Twitter o LinkedIn y gana tiempo de luz gratis por cada amigo que se suscriba a nuestro boletín.
 
 		= render partial: "social_sharing"
+
+.bside
+	%strong Así funciona:
 
 - if Prize.all.any?
 
@@ -20,8 +23,9 @@
 		%aside.text-center
 			%h4
 				%strong= pluralize(@user.number_of_referrals, 'amigo')
-				%span se han unido. ¡Sigue invitando!
+				%string se han suscrito hasta el momento.
+				%p ¡Sigue invitando!
 
 %footer#footer
-	%p All rights reserved
+	%p Invictus.mx
 	= link_to "Privacy Policy", privacy_path, remote: true

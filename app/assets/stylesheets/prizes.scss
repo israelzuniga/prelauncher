@@ -1,7 +1,7 @@
 #prizes {
     border-top: 5px solid #BCBCBC;
     position: relative;
-	margin: 100px 70px;
+	margin: 0px 70px;
 	color: #333;
 	font-family: "futura-pt";
 }
@@ -43,10 +43,10 @@
     border-radius: 50%;
     position: absolute;
     top: -60px;
-    width: 30px;
+    width: 70px;
     height: 30px;
     line-height: 30px;
-    left: calc(50% - 15px);
+    left: calc(45% - 15px);
     text-align: center;
     font-size: 15px;
     font-weight: bold;
@@ -88,8 +88,8 @@
 #footer {
     width: 100%;
     bottom: 0px;
-    margin-top: 60px;
-	margin-bottom: 20px;
+    margin-top: 30px;
+	margin-bottom: 0px;
 	height: auto;
 	text-align: center;
     display: inline-block;

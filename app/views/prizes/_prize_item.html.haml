@@ -2,8 +2,7 @@
 
 .prize{class: "prize #{'active-prize' if achieved}"}
 	%span.prize-number
-		= prize.number_of_referrals
-		%span friends
+		= prize.number_of_referrals.to_s + " Amigos"
 	%p.prize-name
 		= prize.name
 

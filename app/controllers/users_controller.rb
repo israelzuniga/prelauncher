@@ -12,7 +12,7 @@ class UsersController < ApplicationController
 		respond_to do |format|
 	    	format.html {render layout: "dashboard"}
 	    	format.csv { send_data User.all.as_csv }
-    	end 
+    	end
 	end
 
 	def destroy
@@ -48,17 +48,17 @@ class UsersController < ApplicationController
 		if @user.save
 			cookies[:user_id] = @user.id
 			respond_to do |format|
-	            format.html {redirect_to user_path(@user.referral_code), notice: "Thank you for singing up."}
+	            format.html {redirect_to user_path(@user.referral_code), notice: "INVICTUS 🌅 ¡Gracias por suscribirte!"}
 	        end
 	    else
 			respond_to do |format|
-	            format.html {redirect_to root_path, alert: "Subscribing multiple emails is not allowed."}
+	            format.html {redirect_to root_path, alert: "No se permite la suscripción multiple desde el mismo dispositivo. 😱"}
 	        end
 	    end
 	end
 
 
-	private 
+	private
 
 
 	def check_session
@@ -85,7 +85,7 @@ class UsersController < ApplicationController
 
 	def user_params
     	params.require(:user).permit(:email)
-  	end 
+  	end
 
 
 end
