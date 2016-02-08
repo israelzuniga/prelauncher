@@ -9,18 +9,12 @@
 	top: 0px;
 	width: 100%;
 	display: table;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
   letter-spacing: 2px;
   line-height: 32.5px;
-  text-rendering: optimizeLegibility;
 }
 
-.last-box{
-  width: 100%;
-  background-color: gray;
-  position: absolute;
-  padding-top: 1%;
-  bottom: 0;
-}
 .cover{
 	margin-left: auto;
 	margin-right: auto;
@@ -42,7 +36,6 @@
   margin-right: 0px;
   padding-left: 5%;
 	text-transform: uppercase;
-  text-rendering: optimizeLegibility;
   align-content: center;
   text-align: left;
 }
@@ -53,19 +46,18 @@
 	font-size: 25px;
   font-style: normal;
 	font-weight: 400;
-  letter-spacing: 2px;
-  line-height: 32.5px;
-  margin-bottom: 20px;
   margin-top: 0px;
   margin-left: 0px;
   margin-right: 0px;
-  margin: 10px;
   padding-left: 5%;
 	font-family: "futura-pt";
 	text-align: left;
   align-content: center;
 	text-transform: uppercase;
-  text-rendering: optimizeLegibility;
+}
+
+.logo {
+
 }
 
 #new_user {
@@ -95,12 +87,17 @@
     font-size: 18px;
     font-weight: 600;
     width: 100%;
-    background-color: #4EC9ED;
+    background-color: transparent;
     color: #FFF;
     font-family: "futura-pt";
     float: left;
     display: inline-block;
-    margin-left: -5px;
+    margin-left: 5px;
+    border-color: rgb(255, 255, 255);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
 }
 
 .cover small{

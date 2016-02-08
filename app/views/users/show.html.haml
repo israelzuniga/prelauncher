@@ -20,11 +20,17 @@
 			.progress-box
 		= render partial: "prizes/prize_item", collection: Prize.all.order("number_of_referrals asc"), as: :prize
 
-		%aside.text-center
+		.bside
 			%h4
 				%strong= pluralize(@user.number_of_referrals, 'amigo')
 				%string se han suscrito hasta el momento.
 				%p ¡Sigue invitando!
+
+	%p El proveedor ideal en 3 puntos:
+	%ol
+		%li Un precio justo de la electricidad, mucho más barato, que se queda fijo o puede ser ajustado a la baja a través del tiempo.
+		%li Energía limpia accesible para todos con una suscripción y contratación muy fácil, sin desconexiones o  cambios.
+		%li Un consejero energético que te ayuda a consumir y pagar menos luz cada día. Sin recibos impresos ni burocracia, todo digital, fácil y transparente.
 
 %footer#footer
 	%p Invictus.mx
