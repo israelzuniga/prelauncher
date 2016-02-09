@@ -1,14 +1,17 @@
-#refer{style: "background-image: #{Setting.additional_image.present? ? 'url(' + asset_url(Setting.additional_image.url) + ');' : 'auto'}"}
-	.col-md4
-		%h1 LA ENERGÍA SOLAR ES MÁS BARATA Y NO DAÑA EL PLANETA
+#refer
+
 	.col-md-5.col-md-offset-1.col-sm-6.hidden-xs.refer-left
+		#dino-top-left
+		#text-left
+			%h1 LA ENERGÍA SOLAR ES MÁS BARATA Y NO DAÑA EL PLANETA
+			%h3 MUY PRONTO CONOCERAS NUESTROS PLANES
 	.col-md-5.col-sm-6.col-xs-12
 		#copy
 			%h3 NO DEJES FUERA A TUS AMIGOS
 			%h1 INVITA A TUS AMIGOS Y OBTÉN HASTA UN AÑO DE LUZ GRATIS
 
+		%p Comparte tu liga única por correo electrónico, Facebook, o Twitter y gana meses de luz gratis por cada amigo que se suscriba.
 		%input.form-control{value: "#{@user.referral_url(root_url)}"}
-		%p Comparte esta liga por correo electrónico, Facebook, Twitter o LinkedIn y gana tiempo de luz gratis por cada amigo que se suscriba a nuestro boletín.
 
 		= render partial: "social_sharing"
 
@@ -24,17 +27,9 @@
 
 		.bside
 			%h4
-				%strong= pluralize(@user.number_of_referrals, 'amigo')
+				%strong.superstrong= pluralize(@user.number_of_referrals, 'amigo')
 				%string se han suscrito hasta el momento.
 				%p ¡Sigue invitando!
+				%string Promoción válida al contratar el servicio. Aplica para hogares y pequeños comercios en México
 
-	.prov
-		%p El proveedor ideal en 3 puntos:
-		%ol
-			%li Un precio justo de la electricidad, mucho más barato, que se queda fijo o puede ser ajustado a la baja a través del tiempo.
-			%li Energía limpia accesible para todos con una suscripción y contratación muy fácil, sin desconexiones o  cambios.
-			%li Un consejero energético que te ayuda a consumir y pagar menos luz cada día. Sin recibos impresos ni burocracia, todo digital, fácil y transparente.
-
-%footer#footer
-	%p Invictus.mx
-	= link_to "Privacy Policy", privacy_path, remote: true
+	%iframe#ifrmamesq{:src => "http://blog.invictus.mx/relanzamiento"}

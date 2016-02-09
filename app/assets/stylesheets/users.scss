@@ -25,25 +25,26 @@
 }
 
 .cover-title{
-  width: 100%;
+  width: 50%;
 	font-size: 50px;
 	color: rgb(255,255,255);
 	font-weight: 400;
+  font-style: normal;
   font-size: 51px;
   line-height: 56.1px;
 	font-family: "futura-pt";
 	margin-top: 0px;
   margin-left: 0px;
   margin-right: 0px;
-  padding-left: 5%;
   margin-bottom: 0;
+  padding-left: 0px;
 	text-transform: uppercase;
   align-content: center;
   text-align: center;
 }
 
 .cover-subtitle{
-  width: 100%;
+  width: 45%;
   color: rgb(255, 97, 47);
 	font-size: 25px;
   font-style: normal;
@@ -51,8 +52,8 @@
   margin-top: 0px;
   margin-left: 0px;
   margin-right: 0px;
-  padding-left: 5%;
   margin-bottom: 15%;
+  padding-left: 0px;
 	font-family: "futura-pt";
 	text-align: center;
   align-content: center;
@@ -68,15 +69,18 @@
   bottom: 0;
 }
 
-// TO-DO: Edit this stuff
-.key_img {
-  background-image: url(#{asset_url('key.png')});
-  height: 5vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  top: 0px;
-  width: 100%;
-  display: table;
+#key_img{
+  width: auto;
+  height: 20px;
+  background: image-url("key-resize.png") center center no-repeat;
+  margin: 0 0 0 0;
+}
+
+#logo_img{
+  width: auto;
+  height: 103px;
+  background: image-url("logo-invictus.png") center center no-repeat;
+  margin: 0 0 0 0;
 }
 
 #new_user {
@@ -89,6 +93,7 @@
 
 #new_user h4 {
   margin-bottom: 4%;
+  color: rgb(32, 77, 112);
 }
 
 
@@ -147,9 +152,7 @@
 
 #refer{
 	height: 400px;
-	background-size: cover;
-	background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgb(237, 236, 234);
 	top: 0px;
 	width: 100%;
 	display: table;
@@ -157,7 +160,7 @@
 	margin-bottom: 50px;
 	background-size: cover;
   border-bottom-style: solid;
-  border-bottom-color: rgb(0,0,0);
+  border-bottom-color: rgb(32,77,112);
 }
 #refer strong{
   text-transform: uppercase;
@@ -165,11 +168,11 @@
 
 #copy h3{
 	font-size: 18px;
-	color: #FFF;
+	color: rgb(73, 75, 80);
 	font-weight: 400;
 	font-family: "futura-pt";
-	margin: 30px auto 0px 50px;
-	text-align: left;
+	margin: 0px auto 0px 50px;
+	text-align: center;
 	width: auto;
 	text-transform: uppercase;
   letter-spacing: 2px;
@@ -179,11 +182,11 @@
 
 #copy h1 {
 	font-size: 25px;
-	color: rgb(255, 97, 47);
+	color: rgb(32, 77, 112);
 	font-weight: 800;
 	font-family: "futura-pt";
 	margin: 5px auto 25px 50px;
-	text-align: left;
+	text-align: center;
 	width: auto;
 	text-transform: uppercase;
   letter-spacing: 2px;
@@ -203,11 +206,11 @@
 
 #refer p{
     font-size: 16px;
-    color: #FFF;
+    color: rgb(73, 75, 80);
     font-weight: 400;
     font-family: "futura-pt";
     margin: 0px auto 0px 50px;
-    text-align: left;
+    text-align: center;
     width: auto;
     text-transform: none;
 }
@@ -283,7 +286,7 @@
 .bside{
     font-size: 18px;
     color: #333;
-    font-weight: 400;
+    font-weight: normal;
     font-family: "futura-pt";
     margin-top: 10px;
     margin-bottom: 5%;
@@ -292,20 +295,67 @@
     text-transform: none;
     text-align: center;
 }
-
-.prov {
-  font-size: 18px;
-  color: #333;
-  font-weight: 400;
-  font-family: "futura-pt";
-  margin-top: 10px;
-  margin-bottom: 5%;
-  padding-top: 0%;
-  padding-bottom: 0%;
-  text-transform: none;
-  text-align: left;
+.superstrong{
+  font-weight: 900;
+  color: red;
 }
 
+#dino-top-left {
+  width: 100%;
+  height: 200px;
+  background: image-url("dino.png") center center no-repeat;
+  margin: 0 0 0 0;
+}
+#text-left h3{
+	font-size: 18px;
+	color: rgb(32, 77, 112);
+	font-weight: 400;
+	font-family: "futura-pt";
+	margin: 30px auto 0px 50px;
+	text-align: center;;
+	width: auto;
+	text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 32.5px;
+  text-rendering: optimizeLegibility;
+}
+
+#text-left h1 {
+	font-size: 25px;
+	color: rgb(32, 77, 112);
+	font-weight: 800;
+	font-family: "futura-pt";
+	margin: 5px auto 25px 50px;
+	text-align: center;
+	width: auto;
+	text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 32.5px;
+  text-rendering: optimizeLegibility;
+}
+.prov {
+  width: 825px;
+  color: rgb(125, 125, 125);
+  cursor: auto;
+  font-family: "futura-pt";
+  font-size: 18px;
+  line-height: 1.1;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-bottom: 9px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 18px;
+  text-rendering: optimizelegibility;
+  text-transform: uppercase;
+  -moz-osx-font-smoothing: auto;
+}
+#ifrmamesq {
+  width: 100%;
+  height: 800px;
+  float: center;
+}
 
 
 @media screen and (max-width: 980px){
