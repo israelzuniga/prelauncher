@@ -25,6 +25,7 @@
 }
 
 .cover-title{
+  width: 100%;
 	font-size: 50px;
 	color: rgb(255,255,255);
 	font-weight: 400;
@@ -35,13 +36,14 @@
   margin-left: 0px;
   margin-right: 0px;
   padding-left: 5%;
+  margin-bottom: 0;
 	text-transform: uppercase;
   align-content: center;
-  text-align: left;
+  text-align: center;
 }
 
 .cover-subtitle{
-  width: 50%;
+  width: 100%;
   color: rgb(255, 97, 47);
 	font-size: 25px;
   font-style: normal;
@@ -50,14 +52,31 @@
   margin-left: 0px;
   margin-right: 0px;
   padding-left: 5%;
+  margin-bottom: 15%;
 	font-family: "futura-pt";
-	text-align: left;
+	text-align: center;
   align-content: center;
 	text-transform: uppercase;
 }
 
-.logo {
+.last-box{
+  width: 100%;
+  height: 30%;
+  background-color: rgb(237, 236, 234);
+  position: absolute;
+  padding-top: 2.5%;
+  bottom: 0;
+}
 
+// TO-DO: Edit this stuff
+.key_img {
+  background-image: url(#{asset_url('key.png')});
+  height: 5vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: 0px;
+  width: 100%;
+  display: table;
 }
 
 #new_user {
@@ -68,36 +87,51 @@
 	border: medium none;
 }
 
+#new_user h4 {
+  margin-bottom: 4%;
+}
+
+
 #new_user .form-group{
 	display: inline-block;
 }
 
 #new_user .form-control{
-	height: 45px;
+	height: 40px;
+  width: 50px;
 	border-radius: 0px;
-	font-size: 18px;
+	font-size: 12px;
 	width: 100%;
 	float: left;
 	display: inline-block;
+  border-color: rgb(32, 77, 112);
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  background-color: white;
 }
 
 #new_user .btn {
-    height: 45px;
+    height: 40px;
     border-radius: 0px;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 600;
     width: 100%;
-    background-color: transparent;
-    color: #FFF;
+    background-color: rgb(32, 77, 112);
+    color: rgb(255, 255, 255);
     font-family: "futura-pt";
     float: left;
     display: inline-block;
-    margin-left: 5px;
-    border-color: rgb(255, 255, 255);
-    border-left-width: 2px;
-    border-right-width: 2px;
-    border-top-width: 2px;
-    border-bottom-width: 2px;
+    margin-left: -6px;
+    border-color: rgb(32, 77, 112);
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    text-rendering: optimizeLegibility;
+    letter-spacing: 2px;
+    line-height: 32.5px;
 }
 
 .cover small{
@@ -112,7 +146,6 @@
 }
 
 #refer{
-
 	height: 400px;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -258,6 +291,19 @@
     padding-bottom: 0%;
     text-transform: none;
     text-align: center;
+}
+
+.prov {
+  font-size: 18px;
+  color: #333;
+  font-weight: 400;
+  font-family: "futura-pt";
+  margin-top: 10px;
+  margin-bottom: 5%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  text-transform: none;
+  text-align: left;
 }
 
 

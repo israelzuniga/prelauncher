@@ -1,5 +1,6 @@
 = simple_form_for @user, html: {novalidate: false, class: "form-inline"} do |f|
-	%p SÉ EL PRIMERO EN CONOCERLO
-	= f.input :email, as: :email, label: false, placeholder: "Tu Correo Electrónico", input_html: {required: true }
+	.key_img{style: "background-image: url(#{asset_url('key.png')});"}
+	%h4 SÉ EL PRIMERO EN CONOCERLO
+	= f.input :email, as: :email, label: false, placeholder: "Tu correo electrónico", input_html: {required: true }
 	.form-group.submit
-		= f.button :submit, "ENTRAR 🔑", class: "btn btn-branded"
+		= f.button :submit, "ENTRAR", class: "btn btn-branded"
