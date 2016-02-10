@@ -19,4 +19,8 @@
 # Ignore database configs
 config/database.yml
 
-config/database.yml
+
+# Ignore all image files
+
+*.png
+*.jpg

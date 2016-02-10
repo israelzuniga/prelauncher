@@ -25,7 +25,7 @@
 }
 
 .cover-title{
-  width: 50%;
+  width: 100%;
 	font-size: 50px;
 	color: rgb(255,255,255);
 	font-weight: 400;
@@ -44,7 +44,7 @@
 }
 
 .cover-subtitle{
-  width: 45%;
+  width: 100%;
   color: rgb(255, 97, 47);
 	font-size: 25px;
   font-style: normal;
@@ -159,8 +159,9 @@
 	padding-top: 50px;
 	margin-bottom: 50px;
 	background-size: cover;
-  border-bottom-style: solid;
+  border-bottom-style: inset;
   border-bottom-color: rgb(32,77,112);
+  border-bottom-width: thin;
 }
 #refer strong{
   text-transform: uppercase;
@@ -168,7 +169,7 @@
 
 #copy h3{
 	font-size: 18px;
-	color: rgb(73, 75, 80);
+	color: rgb(51, 51, 51);
 	font-weight: 400;
 	font-family: "futura-pt";
 	margin: 0px auto 0px 50px;
@@ -183,8 +184,8 @@
 #copy h1 {
 	font-size: 25px;
 	color: rgb(32, 77, 112);
-	font-weight: 800;
-	font-family: "futura-pt";
+	font-weight: bolder;
+	font-family: "Helvetica";
 	margin: 5px auto 25px 50px;
 	text-align: center;
 	width: auto;
@@ -206,7 +207,7 @@
 
 #refer p{
     font-size: 16px;
-    color: rgb(73, 75, 80);
+    color: rgb(51, 51, 51);
     font-weight: 400;
     font-family: "futura-pt";
     margin: 0px auto 0px 50px;
@@ -285,7 +286,7 @@
 
 .bside{
     font-size: 18px;
-    color: #333;
+    color: rgb(32, 77, 112);
     font-weight: normal;
     font-family: "futura-pt";
     margin-top: 10px;
@@ -295,10 +296,10 @@
     text-transform: none;
     text-align: center;
 }
-.superstrong{
-  font-weight: 900;
-  color: red;
+.bside p{
+    color: rgb(51, 51, 51);
 }
+
 
 #dino-top-left {
   width: 100%;
@@ -306,26 +307,23 @@
   background: image-url("dino.png") center center no-repeat;
   margin: 0 0 0 0;
 }
-#text-left h3{
-	font-size: 18px;
-	color: rgb(32, 77, 112);
-	font-weight: 400;
-	font-family: "futura-pt";
-	margin: 30px auto 0px 50px;
-	text-align: center;;
-	width: auto;
-	text-transform: uppercase;
-  letter-spacing: 2px;
-  line-height: 32.5px;
-  text-rendering: optimizeLegibility;
+#text-left p{
+  font-size: 16px;
+  color: rgb(51, 51, 51);
+  font-weight: 400;
+  font-family: "futura-pt";
+  margin: 0px auto 0px 50px;
+  text-align: center;
+  width: auto;
+  text-transform: none;
 }
 
 #text-left h1 {
-	font-size: 25px;
-	color: rgb(32, 77, 112);
-	font-weight: 800;
+  font-size: 18px;
+	color: rgb(51, 51, 51);
+	font-weight: 400;
 	font-family: "futura-pt";
-	margin: 5px auto 25px 50px;
+	margin: 0px auto 0px 50px;
 	text-align: center;
 	width: auto;
 	text-transform: uppercase;
@@ -353,7 +351,7 @@
 }
 #ifrmamesq {
   width: 100%;
-  height: 800px;
+  height: 1800px;
   float: center;
 }
 
