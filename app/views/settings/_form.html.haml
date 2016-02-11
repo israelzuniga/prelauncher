@@ -1,15 +1,13 @@
-= simple_form_for @setting, :html => {novalidate: false} do |f| 
+= simple_form_for @setting, :html => {novalidate: false} do |f|
 
 	%legend Images
 	.form-group.form-group-sm
 		.col-sm-4
 			= f.input :cover_image, as: :file, label: "Cover image"
-	.form-group.form-group-sm
-		.col-sm-4
-			= f.input :additional_image, as: :file, label: "Additional image"
 
 
-	%legend Twitter		
+
+	%legend Twitter
 	.form-group.form-group-sm
 		.col-sm-4
 			= f.input :twitter_message, as: :string, label: "Message", placeholder: "Message", required: false
@@ -26,13 +24,13 @@
 		.col-sm-4
 			= f.input :google_plus_image, as: :file, label: "Google+ image"
 
-	%legend Pinterest	
+	%legend Pinterest
 	.form-group.form-group-sm
 		.col-sm-4
 			= f.input :pinterest_description, as: :string, label: "Message", placeholder: "Message", required: false
 			= f.input :pinterest_image, as: :file, label: "Pinterest image"
 
-	%legend LinkedIn	
+	%legend LinkedIn
 	.form-group.form-group-sm
 		.col-sm-4
 			= f.input :linkedin_title, as: :string, label: "Title", placeholder: "Title", required: false
@@ -43,7 +41,7 @@
 			= f.input :email_subject, as: :string, label: "Subject", placeholder: "Subject", required: false
 			= f.input :email_message, as: :text, label: "Message", placeholder: "Message", required: false
 
-		
+
 
 	%legend Save settings
 	.col-md-12

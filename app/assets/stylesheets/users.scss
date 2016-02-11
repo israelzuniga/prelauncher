@@ -3,7 +3,7 @@
 }
 
 #main{
-	height: 100vh;
+	height: 70vh;
 	background-size: cover;
 	background-repeat: no-repeat;
 	top: 0px;
@@ -52,8 +52,9 @@
   margin-top: 0px;
   margin-left: 0px;
   margin-right: 0px;
-  margin-bottom: 15%;
-  padding-left: 0px;
+  margin-bottom: 0px;
+  padding-left: 4px;
+  padding-right: 4px;
 	font-family: "futura-pt";
 	text-align: center;
   align-content: center;
@@ -168,31 +169,41 @@
 }
 
 #copy h3{
-	font-size: 18px;
-	color: rgb(51, 51, 51);
-	font-weight: 400;
-	font-family: "futura-pt";
-	margin: 0px auto 0px 50px;
-	text-align: center;
-	width: auto;
-	text-transform: uppercase;
-  letter-spacing: 2px;
-  line-height: 32.5px;
-  text-rendering: optimizeLegibility;
+  color: rgb(81, 86, 92);
+  cursor: auto;
+  font-family: "futura-pt";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 19.5px;
+  margin-bottom: 7.5px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  text-align: center;
+  text-rendering: optimizelegibility;
+  text-transform: uppercase;
+
 }
 
 #copy h1 {
-	font-size: 25px;
-	color: rgb(32, 77, 112);
-	font-weight: bolder;
-	font-family: "Helvetica";
-	margin: 5px auto 25px 50px;
-	text-align: center;
-	width: auto;
-	text-transform: uppercase;
-  letter-spacing: 2px;
-  line-height: 32.5px;
-  text-rendering: optimizeLegibility;
+  color: rgb(30, 79, 106);
+  cursor: auto;
+  font-family: "futura-pt";
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 37.2px;
+  margin-bottom: 15.5px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 31px;
+  text-align: center;
+  text-rendering: optimizelegibility;
+  text-transform: uppercase;
+
 }
 
 #refer input {
@@ -203,17 +214,22 @@
     margin: 10px 0px 25px 50px;
     text-align: center;
     line-height: 30px;
+    color: rgb(31, 31, 31);
+    cursor: auto;
+    font-family: "futura-pt";
 }
 
 #refer p{
-    font-size: 16px;
-    color: rgb(51, 51, 51);
-    font-weight: 400;
-    font-family: "futura-pt";
-    margin: 0px auto 0px 50px;
-    text-align: center;
-    width: auto;
-    text-transform: none;
+  color: rgb(31, 31, 31);
+  cursor: auto;
+  font-family: "europa";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 19.2px;
+  margin-bottom: 0px;
+  text-align: center;
 }
 
 #social-sharing {
@@ -285,51 +301,85 @@
 }
 
 .bside{
-    font-size: 18px;
-    color: rgb(32, 77, 112);
-    font-weight: normal;
-    font-family: "futura-pt";
-    margin-top: 10px;
-    margin-bottom: 5%;
-    padding-top: 0%;
-    padding-bottom: 0%;
-    text-transform: none;
-    text-align: center;
+  color: rgb(31, 31, 31);
+  cursor: auto;
+  font-family: "europa";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 19.2px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5%;
+}
+#margintop5{
+  margin-top: 10%;
+  color: #1a3442;
+}
+.bside #asifunciona{
+  color: rgb(81, 86, 92);
+cursor: auto;
+font-family: "futura-pt";
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+letter-spacing: 1px;
+line-height: 19.5px;
+margin-bottom: 7.5px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+text-align: center;
+text-rendering: optimizelegibility;
+text-transform: uppercase;
+
 }
 .bside p{
     color: rgb(51, 51, 51);
+}
+.bside strong {
+  color: rgb(116, 71, 68);
 }
 
 
 #dino-top-left {
   width: 100%;
-  height: 200px;
+  height: 210px;
   background: image-url("dino.png") center center no-repeat;
   margin: 0 0 0 0;
 }
 #text-left p{
-  font-size: 16px;
-  color: rgb(51, 51, 51);
+  color: rgb(31, 31, 31);
+  cursor: auto;
+  font-family: "europa";
+  font-size: 12px;
+  font-style: normal;
   font-weight: 400;
-  font-family: "futura-pt";
-  margin: 0px auto 0px 50px;
+  letter-spacing: 1px;
+  line-height: 19.2px;
+  margin-bottom: 0px;
   text-align: center;
-  width: auto;
-  text-transform: none;
+
 }
 
 #text-left h1 {
-  font-size: 18px;
-	color: rgb(51, 51, 51);
-	font-weight: 400;
-	font-family: "futura-pt";
-	margin: 0px auto 0px 50px;
-	text-align: center;
-	width: auto;
-	text-transform: uppercase;
-  letter-spacing: 2px;
-  line-height: 32.5px;
-  text-rendering: optimizeLegibility;
+  color: rgb(30, 79, 106);
+  cursor: auto;
+  font-family: "futura-pt";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 24px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  text-align: center;
+  text-rendering: optimizelegibility;
+  text-transform: uppercase;
+
 }
 .prov {
   width: 825px;
@@ -444,6 +494,16 @@
 
 @media screen and (max-width: 768px){
 
+  #text-left h1{
+    font-size: 8px;
+    font-weight: normal;
+
+  }
+
+  #text-left p{
+
+  }
+
   #refer input {
     height: 28px;
     font-size: 17px;
@@ -519,7 +579,7 @@
 @media screen and (max-width: 500px){
 
     #new_user .user_email {
-    width: 60%;
+    width: 50%;
   }
 
     #new_user .submit {
@@ -537,6 +597,22 @@
 
 
 @media screen and (max-width: 450px){
+  #main{
+    width: 100%;
+  }
+  .last-box{
+    width: 100%;
+    margin: 0;
+    padding: 0
+  }
+  .cover-title{
+    font-size: 35px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+  }
+  .cover-subtitle{
+    font-size: 30px;
+  }
      #new_user input {
       font-size: 18px !important;
   }
@@ -547,14 +623,16 @@
 
     #new_user {
     width: 100%;
+    margin: 0;
+    padding: 0;
   }
 
     #new_user .user_email {
-    width: 55%;
+    width: 45%;
   }
 
     #new_user .submit {
-    width: 45%;
+    width: 35%;
   }
 
 
@@ -567,6 +645,20 @@
 
 
 @media screen and (max-width: 360px){
+  #main{
+    width: 100%;
+  }
+  .last-box{
+    width: 100%;
+    margin: 0;
+    padding: 0
+  }
+  .cover-title{
+    font-size: 30px;
+  }
+  .cover-subtitle{
+    font-size: 25px;
+  }
 
   #refer h1 {
     font-size: 27px;
@@ -578,6 +670,8 @@
 
     #new_user .submit {
       min-width: 60px;
+      margin: 0;
+      padding: 0;
   }
 
   #refer p {
@@ -593,16 +687,34 @@
 
 
 @media screen and (max-width: 320px){
+  #main{
+    width: 100%;
+  }
+  .last-box{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .cover-title{
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+    font-family: "futura-pt", "Futura", Arial, sans-serif;
+  }
+  .cover-subtitle{
+    font-size: 19px;
+    font-family: "futura-pt", "Futura", Arial, sans-serif;
+  }
     #new_user input {
-      font-size: 16px !important;
+      font-size: 12px !important;
   }
 
     #new_user .user_email {
-   width: 55%;
+   width: 40%;
   }
 
     #new_user .submit {
-    width: 45%;
+    width: 20%;
   }
 
   .contact-socials i.fa {
@@ -622,6 +734,10 @@
       font-size: 22px;
   }
 
+  #new_user {
+    margin: 0;
+    padding: 0;
+  }
 	#new_user .btn{
 		margin-left: auto;
 	}

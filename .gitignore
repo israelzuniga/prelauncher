@@ -22,5 +22,9 @@ config/database.yml
 
 # Ignore all image files
 
-*.png
-*.jpg
+!*.png
+!*.jpg
+
+config/application.rb
+
+config/application.rb
