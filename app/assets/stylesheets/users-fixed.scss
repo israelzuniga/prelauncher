@@ -19,7 +19,7 @@
     position: absolute;
     transform: translate(-50%, -50%);
     left:50%; top:50%;
-    font-family: "futura-pt", sans-serif;
+    font-family: "futura-pt", 'Raleway', sans-serif;
     letter-spacing: 0px;
     text-transform: uppercase;
     text-rendering: optimizelegibility;
@@ -58,7 +58,7 @@
   padding-top: 30px;
   padding-bottom: 50px;
   background-color: rgb(237, 236, 234);
-  font-family: "futura-pt", sans-serif;
+  font-family: "futura-pt", 'Raleway', sans-serif;
     @media (min-width:780px) and (max-width: 959px){
     }
     @media (min-width:640px) and (max-width: 779px){
@@ -80,7 +80,7 @@
     border-color: rgb(32, 77, 112);
     background-color: rgb(255, 255, 255);
     text-align: center;
-    font-family: "futura-pt";
+    font-family: "futura-pt", 'Raleway', sans-serif;
     @media (min-width:780px) and (max-width: 959px){
       width: 150px;
     }
@@ -88,7 +88,7 @@
     }
     @media (min-width:300px) and (max-width: 639px){
       max-width: 150px;
-      font-family: "futura-pt", sans-serif;
+      font-family: "futura-pt", 'Raleway', sans-serif;
       font-size: 10px;
     }
   }
@@ -109,7 +109,7 @@
   }
 .primero{
     color: rgb(30, 79, 106);
-    font-family: "futura-pt", sans-serif;
+    font-family: "futura-pt", 'Raleway', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;

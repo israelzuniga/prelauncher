@@ -18,7 +18,7 @@
 #copy h3{
   color: rgb(81, 86, 92);
   cursor: auto;
-  font-family: "futura-pt", sans-serif;
+  font-family: "futura-pt", 'Raleway', sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
@@ -37,7 +37,7 @@
 #copy h1 {
   color: rgb(30, 79, 106);
   cursor: auto;
-  font-family: "futura-pt", sans-serif;
+  font-family: "futura-pt", 'Raleway', sans-serif;
   font-size: 31px;
   font-style: normal;
   font-weight: 500;
@@ -63,13 +63,13 @@
     line-height: 30px;
     color: rgb(98,98,98);
     cursor: auto;
-    font-family: "futura-pt", sans-serif;
+    font-family: "futura-pt", 'Raleway', sans-serif;
 }
 
 #refer p{
   color: rgb(31, 31, 31);
   cursor: auto;
-  font-family: "europa", inherit;
+  font-family: "europa", 'Josefin Sans', sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -150,7 +150,7 @@
 .bside{
   color: rgb(31, 31, 31);
   cursor: auto;
-  font-family: "europa", inherit;
+  font-family: "europa", 'Josefin Sans', sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -167,7 +167,7 @@
 .bside #asifunciona{
   color: rgb(81, 86, 92);
 cursor: auto;
-font-family: "futura-pt", sans-serif;
+font-family: "futura-pt", 'Raleway', sans-serif;
 font-size: 15px;
 font-style: normal;
 font-weight: 500;
@@ -199,7 +199,7 @@ text-transform: uppercase;
 #text-left p{
   color: rgb(31, 31, 31);
   cursor: auto;
-  font-family: "europa", inherit;
+  font-family: "europa", 'Josefin Sans', sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -213,7 +213,7 @@ text-transform: uppercase;
 #text-left h1 {
   color: rgb(30, 79, 106);
   cursor: auto;
-  font-family: "futura-pt", sans-serif;
+  font-family: "futura-pt", 'Raleway', sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -232,7 +232,7 @@ text-transform: uppercase;
   width: 825px;
   color: rgb(125, 125, 125);
   cursor: auto;
-  font-family: "futura-pt", sans-serif;
+  font-family: "futura-pt", 'Raleway', sans-serif;
   font-size: 18px;
   line-height: 1.1;
   font-style: normal;
@@ -458,6 +458,7 @@ text-transform: uppercase;
 
 
 @media screen and (max-width: 360px){
+	#noshow{display: none;}
 
   #refer h1 {
     font-size: 27px;
