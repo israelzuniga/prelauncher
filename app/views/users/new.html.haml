@@ -1,9 +1,7 @@
-%section#main{style: "background-image: url(#{asset_url(Setting.cover_image.url)});"}
-	.cover
-		%h1.cover-title UN NUEVO INVICTUS PRÓXIMAMENTE
-		%h3.cover-subtitle REDUCE Y CONTROLA TU GASTO DE LUZ
-		%h3.cover-subtitle-2n PARA SIEMPRE… DESDE AHORITA.
-	.last-box
-		#key_img
-		#form-wrapper
-			= render "form"
+.banner{style: "background-image: url(#{asset_url(Setting.cover_image.url)});"}
+	.caption
+		%h1.title UN NUEVO INVICTUS PRÓXIMAMENTE
+		%h3.subtitle REDUCE Y CONTROLA TU GASTO DE LUZ <br>PARA SIEMPRE… DESDE AHORITA.
+.bottom
+	#key_img
+	= render "form"
