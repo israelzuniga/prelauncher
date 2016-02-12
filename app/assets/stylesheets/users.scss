@@ -4,8 +4,6 @@
 
 #main{
 	height: 100vh;
-	background-size: cover;
-	background-repeat: no-repeat;
 	top: 0px;
 	width: 100%;
 	display: table;
@@ -13,15 +11,19 @@
   text-rendering: optimizeLegibility;
   letter-spacing: 2px;
   line-height: 32.5px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .cover{
+  width: 100%;
+  height: 70%;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
 	vertical-align: middle;
-	display: table-cell;
-	background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .cover-title{
@@ -33,7 +35,7 @@
   font-style: normal;
   line-height: 56.1px;
 	font-family: "futura-pt", sans-serif;
-	margin-top: 0px;
+	margin-top: 10%;
   margin-left: 0px;
   margin-right: 0px;
   margin-bottom: 0;
@@ -50,53 +52,54 @@
 .cover-subtitle{
   width: 80%;
   color: rgb(255, 97, 47);
-font-family: "futura-pt", sans-serif;
-font-size: 25px;
-font-style: normal;
-font-weight: 400;
-letter-spacing: 2px;
-line-height: 32.5px;
-margin-bottom: 0px;
-margin-left: 0px;
-margin-right: 0px;
-margin-top: 20px;
-text-align: left;
-padding-left: 150px;
-text-rendering: optimizelegibility;
-text-transform: uppercase;
--moz-osx-font-smoothing: grayscale;
+  font-family: "futura-pt", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 32.5px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 20px;
+  text-align: left;
+  padding-left: 150px;
+  text-rendering: optimizelegibility;
+  text-transform: uppercase;
+  -moz-osx-font-smoothing: grayscale;
 
 }
 .cover-subtitle-2n{
   width: 80%;
   color: rgb(255, 97, 47);
-font-family: "futura-pt", sans-serif;
-font-size: 25px;
-font-style: normal;
-font-weight: 400;
-letter-spacing: 2px;
-line-height: 32.5px;
-margin-bottom: 20px;
-margin-left: 0px;
-margin-right: 0px;
-margin-top: 0px;
-text-align: left;
-padding-left: 185px;
-text-rendering: optimizelegibility;
-text-transform: uppercase;
--moz-osx-font-smoothing: grayscale;
+  font-family: "futura-pt", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 32.5px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  text-align: left;
+  padding-left: 185px;
+  text-rendering: optimizelegibility;
+  text-transform: uppercase;
+  -moz-osx-font-smoothing: grayscale;
 
 }
 
 .last-box{
   width: 100%;
-  background-color: rgb(237, 236, 234);
+  height: 30%;
   position: absolute;
-  display: table;
   padding-top: 2%;
   padding-bottom: 5%;
   bottom: 0;
-  left: 0px;
+  left: 0;
+  text-align: center;
+  background-color: rgb(237, 236, 234);
 }
 
 #key_img{
@@ -849,10 +852,27 @@ text-transform: uppercase;
 
 }
 
-@media screen and (max-width: 380px){
+
+ //iphone6
+@media screen and (max-device-width : 375px)
+
+  {
   #main{
     width: 100%;
+    height: 100%;
   }
+  .cover{
+  width: 100%;
+  height: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	vertical-align: middle;
+  position: absolute;
+  right: auto;
+  left: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
   .cover-title {
     width: 100%;
     text-align: center;
@@ -864,7 +884,6 @@ text-transform: uppercase;
     padding-left: 0;
     padding-right: 0;
     padding-bottom: 0;
-    display: inline-block;
     font-family: "futura-pt", "Futura",monospace;
   }
   .cover-subtitle {
@@ -897,6 +916,7 @@ text-transform: uppercase;
   }
   .last-box{
     width: 100%;
+    height: 30%;
     margin-top: 0;
     margin-left: 0;
     margin-right: 0;
@@ -906,6 +926,8 @@ text-transform: uppercase;
     padding-right: 0;
     padding-bottom: 0;
     font-family: "futura-pt", "Futura",monospace;
+    text-align: center;
+    background-color: rgb(237, 236, 234);
   }
 
   #new_user input {
