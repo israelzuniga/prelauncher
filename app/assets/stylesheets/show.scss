@@ -162,8 +162,14 @@
 }
 #margintop5{
   margin-top: 10%;
-  color: #1a3442;
+  color: rgb(30, 79, 106);
+	#extrabold{
+		font-size: 16px;
+		font-weight: 600;
+	}
 }
+
+
 .bside #asifunciona{
   color: rgb(81, 86, 92);
 cursor: auto;
@@ -183,7 +189,7 @@ text-transform: uppercase;
 
 }
 .bside p{
-    color: rgb(51, 51, 51);
+    color: rgb(30, 79, 106)
 }
 .bside strong {
   color: rgb(116, 71, 68);
@@ -415,7 +421,7 @@ text-transform: uppercase;
 
 
   #prizes{
-  	margin: 100px 20px;
+  	margin: 20px 20px;
   }
 
 
@@ -435,12 +441,12 @@ text-transform: uppercase;
 }
 
 @media screen and (max-width: 420px){
+	#copy{
+		margin-top: 50px;
+	}
 #refer h1 {
     font-size: 27px;
   }
-
-
-
 
   #refer p {
     font-size: 15px;
@@ -452,13 +458,11 @@ text-transform: uppercase;
 
 }
 
-
-
-
-
-
 @media screen and (max-width: 360px){
 	#noshow{display: none;}
+	#copy{
+		padding-top: 45px;
+	}
 
   #refer h1 {
     font-size: 27px;
@@ -485,7 +489,9 @@ text-transform: uppercase;
 
 @media screen and (max-width: 320px){
 
-
+	#copy{
+		padding-top: 40px;
+	}
   .contact-socials i.fa {
       font-size: 25px;
   }
