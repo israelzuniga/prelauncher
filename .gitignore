@@ -16,8 +16,7 @@
 !/log/.keep
 /tmp
 
-# Ignore database configs
-config/database.yml
+
 
 
 # Ignore all image files
