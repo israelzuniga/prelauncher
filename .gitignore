@@ -27,3 +27,5 @@
 config/application.rb
 
 config/application.rb
+
+config/database.yml
