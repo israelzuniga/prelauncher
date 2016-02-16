@@ -4,8 +4,8 @@
 		#dino-top-left
 		#text-left
 			%h1 LA ENERGÍA ESTÁ EVOLUCIONANDO
-			%p La energía solar es más barata y no daña al planeta.
-			%p Muy pronto conocerás nuestros planes.
+			%p La energía solar es más barata y no daña al planeta. Muy pronto conocerás nuestros planes.
+			#spacer
 	.col-md-5.col-sm-6.col-xs-12
 		#copy
 			%h3 NO DEJES FUERA A TUS AMIGOS
@@ -21,19 +21,19 @@
 
 - if Prize.all.any?
 
-	%section#prizes
-		.hidden-xs
+	.hidemobile
+		%section#prizes
 			.progressbar{style: "width: #{@user.progress * 100}%"}
-			= render partial: "prizes/prize_item", collection: Prize.all.order("number_of_referrals asc"), as: :prize
+				= render partial: "prizes/prize_item", collection: Prize.all.order("number_of_referrals asc"), as: :prize
 
-		.bside
-			#margintop5
-				#extrabold
-					%strong= pluralize(@user.number_of_referrals, 'amigo')
-					%string se han suscrito hasta el momento.
-					%p ¡Sigue invitando!
-				%br
-				%p Promoción válida al contratar el servicio. Aplica para hogares y pequeños comercios en México
+	.bside
+		#margintop5
+			#extrabold
+				%strong= pluralize(@user.number_of_referrals, 'amigo')
+				%string se han suscrito hasta el momento.
+				%p ¡Sigue invitando!
+			%br
+			%p Promoción válida al contratar el servicio. Aplica para hogares y pequeños comercios en México
 
 	%iframe#ifrmamesq{:src => "https://invictus-mx-xerb.squarespace.com/relanzamiento"}
 	// If iframe is not loading, you should review this steps:

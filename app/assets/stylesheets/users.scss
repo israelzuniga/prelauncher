@@ -1,3 +1,5 @@
+body{background-color: rgb(237, 236, 234);}
+
 .banner{
   height: 500px;
   position:relative;
@@ -39,7 +41,7 @@
     }
     h3{
       margin:0; padding:0;
-      color: rgb(255, 97, 47);
+      color: rgb(255, 111, 0);
       @media (min-width:780px) and (max-width: 959px){
         font-size:30px;
       }
@@ -87,9 +89,10 @@
     @media (min-width:640px) and (max-width: 779px){
     }
     @media (min-width:300px) and (max-width: 639px){
-      max-width: 150px;
+      min-width: 200px;
+      max-width: 250px;
       font-family: "futura-pt", 'Raleway', sans-serif;
-      font-size: 10px;
+      font-size: 19px;
     }
   }
   .btn{
@@ -100,10 +103,11 @@
     color: rgb(255, 255, 255);
     margin-left: -4px;
     @media (min-width:640px) and (max-width: 779px){
-      margin-bottom: 5px;
+      margin-bottom: 3px;
     }
     @media (min-width:300px) and (max-width: 639px){
-      margin-bottom: 0px;
+      margin-bottom: 5px;
+
       }
     }
   }
