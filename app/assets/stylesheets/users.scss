@@ -46,27 +46,26 @@ body {
         font-size:30px;
       }
       @media (min-width:300px) and (max-width: 639px){
-        font-size:30px;
+        font-size:25px;
       }
     }
     h3{
       margin:0; padding:0;
       font-family: "futura-pt", 'Raleway', sans-serif;
-      font-size: 25px;
+      font-size: 20px;
       font-style: normal;
       font-weight: 400;
       letter-spacing: 2px;
       line-height: 32.5px;
-
       color: rgb(255, 111, 0);
       @media (min-width:780px) and (max-width: 959px){
-        font-size:30px;
+        font-size:20px;
       }
       @media (min-width:640px) and (max-width: 779px){
-        font-size:20px;
+        font-size:15px;
       }
       @media (min-width:300px) and (max-width: 639px){
-        font-size:20px;
+        font-size:15px;
       }
     }
   }
