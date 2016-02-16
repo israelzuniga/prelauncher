@@ -72,6 +72,10 @@ body {
   margin: 0;
   font-family: 14px "futura-pt", Arial, sans-serif;
   background-color: rgb(237, 236, 234);
+  text-rendering: optimizelegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 
 a:link, a:visited, a:active, a:focus{
