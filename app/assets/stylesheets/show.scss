@@ -171,6 +171,9 @@
 		font-size: 16px;
 		font-weight: 600;
 	}
+	.mobileonly{
+		display: none;
+	}
 }
 
 
@@ -424,6 +427,9 @@ text-transform: uppercase;
 	.hidemobile{
 		display: none;
 	}
+	.mobileonly{
+		display: inline !important;
+	}
 }
 
 @media screen and (max-width: 600px){
@@ -518,6 +524,12 @@ text-transform: uppercase;
 	#noshow{display: none;}
 	#copy{
 		padding-top: 45px;
+	}
+	.mobileonly{
+		display: inline;
+	}
+	.mobileonly{
+		display: inline !important;
 	}
 
   #refer h1 {

@@ -36,7 +36,7 @@ body {
       letter-spacing: 0px;
       line-height: 1.1em;
       color: rgb(255,255,255);
-      font-family: "futura-pt";
+      font-family: "futura-pt", 'Raleway', sans-serif;
       text-rendering: optimizelegibility;
       text-transform: none;
       @media (min-width:780px) and (max-width: 959px){
@@ -51,7 +51,7 @@ body {
     }
     h3{
       margin:0; padding:0;
-      font-family: "futura-pt";
+      font-family: "futura-pt", 'Raleway', sans-serif;
       font-size: 25px;
       font-style: normal;
       font-weight: 400;
