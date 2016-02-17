@@ -36,13 +36,6 @@
 #prizes .prize-number > span{
   display: none;
 }
-#texto1 {
-    position: relative;
-    float: left;
-    width: 80%;
-    margin-top: 15px;
-}
-
 #prizes .prize {
     position: relative;
     float: left;
@@ -52,7 +45,6 @@
 
 #prizes .prize-number {
 
-    border-radius: 50%;
     position: absolute;
     top: -60px;
     width: 70px;
@@ -91,12 +83,11 @@ text-align: center;
 
 
 #prizes .active-prize .prize-name{
-    color: #2ecc71;
+    color: rgb(255, 111, 0);
 }
 
 #prizes .active-prize .prize-number{
-    background: #2ecc71;
-    color: white;
+    color: rgb(255, 111, 0);
 }
 
 
