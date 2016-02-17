@@ -8,6 +8,7 @@ body {
   position:relative;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: rgba(0, 0, 0, 0.8);
   @media (min-width:780px) and (max-width: 959px){
     height:350px;
   }
@@ -89,6 +90,13 @@ body {
       height: 20px;
       background: image-url("key-resize.png") center center no-repeat;
       margin: 0 0 0 0;
+      }
+      #dinocenter{
+        width: 100%;
+        height: 150px;
+        background: image-url("dino-geek.png") center center no-repeat;
+        margin: 0 0 0 0;
+        padding-top: 5px;
       }
 
   .form-group {
