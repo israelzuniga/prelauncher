@@ -5,6 +5,3 @@
 		= prize.number_of_referrals.to_s + " Amigos"
 	%p.prize-name
 		= prize.name
-
-	- if prize.image.present?
-		= image_tag(prize.image.url, width: 190, height: 250, style: "top: -330px")

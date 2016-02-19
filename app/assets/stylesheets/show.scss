@@ -1,6 +1,65 @@
 .whitebg{
 	background-color: rgb(255, 255, 255);
+	h1{
+	  color: rgb(255, 111, 0);
+	  cursor: auto;
+	  font-family: "futura-pt","Raleway",sans-serif;
+	  font-size: 31px;
+	  font-style: normal;
+	  font-weight: 500;
+	  letter-spacing: 1px;
+	  line-height: 37.2px;
+	  margin-bottom: 15.5px;
+	  margin-left: 0px;
+	  margin-right: 0px;
+	  margin-top: 31px;
+	  text-align: center;
+	}
+	h2{
+	  color: rgb(30, 79, 106);
+	  font-family: "futura-pt","Raleway",sans-serif;
+	  font-size: 20px;
+	  font-style: normal;
+	  font-weight: 500;
+	  letter-spacing: 1px;
+	  line-height: 24px;
+	  margin-bottom: 10px;
+	  margin-left: 0px;
+	  margin-right: 0px;
+	  margin-top: 0px;
+	  text-align: center;
+
+	}
+	h3{
+	  color: rgb(255, 111, 0);
+	  font-family: "futura-pt","Raleway",sans-serif;
+	  font-size: 15px;
+	  font-style: normal;
+	  font-weight: 500;
+	  letter-spacing: 1px;
+	  line-height: 19.5px;
+	  margin-bottom: 7.5px;
+	  margin-left: 0px;
+	  margin-right: 0px;
+	  margin-top: 0px;
+		text-align: center;
+	}
+	p{
+	  color: rgb(27, 27, 27);
+	  font-family: "europa","Josefin Sans",sans-serif;
+	  font-size: 15px;
+	  font-style: normal;
+	  font-weight: 400;
+	  letter-spacing: 1px;
+	  line-height: 19.2px;
+	  margin-bottom: 0px;
+	  margin-left: 0px;
+	  margin-right: 0px;
+	  margin-top: 0px;
+	  text-align: center;
+	}
 }
+
 #refer{
 	height: 400px;
   background-color: rgb(237, 236, 234);
@@ -18,43 +77,7 @@
   text-transform: uppercase;
 }
 
-#copy h3{
-  color: rgb(81, 86, 92);
-  cursor: auto;
-  font-family: "futura-pt", 'Raleway', sans-serif;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 500;
-  letter-spacing: 1px;
-  line-height: 19.5px;
-  margin-bottom: 7.5px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: 0px;
-  text-align: center;
-  text-rendering: optimizelegibility;
-  text-transform: uppercase;
 
-}
-
-#copy h1 {
-  color: rgb(30, 79, 106);
-  cursor: auto;
-  font-family: "futura-pt", 'Raleway', sans-serif;
-  font-size: 31px;
-  font-style: normal;
-  font-weight: 500;
-  letter-spacing: 1px;
-  line-height: 37.2px;
-  margin-bottom: 15.5px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: 31px;
-  text-align: center;
-  text-rendering: optimizelegibility;
-  text-transform: uppercase;
-
-}
 
 #refer input {
     height: 35px;
@@ -69,22 +92,12 @@
     font-family: "futura-pt", 'Raleway', sans-serif;
 }
 
-#refer p{
-  color: rgb(31, 31, 31);
-  cursor: auto;
-  font-family: "europa", 'Josefin Sans', sans-serif;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: 1px;
-  line-height: 19.2px;
-  margin-bottom: 0px;
-  text-align: center;
-}
+
 
 #social-sharing {
     text-align: center;
     margin-top: 30px;
+		margin-bottom: 10px;
 }
 
 .contact-socials {
@@ -151,22 +164,12 @@
 }
 
 .bside{
-  color: rgb(31, 31, 31);
-	background-color: rgb(255, 255, 255);
   cursor: auto;
-  font-family: "europa", 'Josefin Sans', sans-serif;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: 1px;
-  line-height: 19.2px;
   text-align: center;
   margin-top: 10px;
-  margin-bottom: 5%;
+  margin-bottom: 10px;
 }
-#margintop5{
-  margin-top: 10%;
-  color: rgb(30, 79, 106);
+
 	#extrabold{
 		font-size: 16px;
 		font-weight: 600;
@@ -174,30 +177,28 @@
 	.mobileonly{
 		display: none;
 	}
+
+#dinos{
+  width: 100%;
+  height: 250px;
+  background: image-url("dinos.png") center center no-repeat;
+	margin-top: 30px;
+	padding-top: 30px;
+	margin-bottom: 30px;
+	@media (min-width:300px) and (max-width: 639px){
+display: none;
+	}
 }
 
 
 .bside #asifunciona{
-  color: rgb(81, 86, 92);
-cursor: auto;
-font-family: "futura-pt", 'Raleway', sans-serif;
-font-size: 15px;
-font-style: normal;
-font-weight: 500;
-letter-spacing: 1px;
-line-height: 19.5px;
-margin-bottom: 7.5px;
-margin-left: 0px;
-margin-right: 0px;
-margin-top: 0px;
-text-align: center;
+
 text-rendering: optimizelegibility;
 text-transform: uppercase;
+padding-bottom: 15px;
 
 }
-.bside p{
-    color: rgb(30, 79, 106)
-}
+
 .bside strong {
   color: rgb(116, 71, 68);
 }
@@ -209,38 +210,8 @@ text-transform: uppercase;
   background: image-url("dino.png") center center no-repeat;
   margin: 0 0 0 0;
 }
-#text-left p{
-  color: rgb(31, 31, 31);
-  cursor: auto;
-  font-family: "europa", 'Josefin Sans', sans-serif;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: 1px;
-  line-height: 19.2px;
-  margin-bottom: 0px;
-  text-align: center;
 
-}
 
-#text-left h1 {
-  color: rgb(30, 79, 106);
-  cursor: auto;
-  font-family: "futura-pt", 'Raleway', sans-serif;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  letter-spacing: 1px;
-  line-height: 24px;
-  margin-bottom: 10px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: 0px;
-  text-align: center;
-  text-rendering: optimizelegibility;
-  text-transform: uppercase;
-
-}
 .prov {
   width: 825px;
   color: rgb(125, 125, 125);
@@ -374,7 +345,7 @@ text-transform: uppercase;
   #refer input {
     height: 28px;
     font-size: 17px;
-    margin-top: 5px;
+    margin-top: 15px;
     line-height: 28px;
   }
 
@@ -410,7 +381,7 @@ text-transform: uppercase;
 
   #refer h1 {
     font-size: 30px;
-    margin: 15px auto 20px;
+    margin: 15px auto 5px;
   }
 	#copy{
 		margin-top: 70px;
