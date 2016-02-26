@@ -66,12 +66,20 @@
 	top: 0px;
 	width: 100%;
 	display: table;
-	padding-top: 50px;
 	margin-bottom: 50px;
 	background-size: cover;
   border-bottom-style: inset;
   border-bottom-color: rgb(136, 136, 136);
   border-bottom-width: thin;
+	h1{
+		color: rgb(255, 255, 255);
+	}
+	h2{
+		color: rgb(255, 111, 0);
+	}
+	p{
+		color: rgb(255, 255, 255);
+	}
 }
 #refer strong{
   text-transform: uppercase;
@@ -118,7 +126,7 @@
 }
 
 .ico-facebook {
-    color: #3B5998;
+    color: #FFF;
 }
 
 .ico-facebook:hover{
@@ -131,7 +139,7 @@
 }
 
 .ico-twitter {
-    color: #00A9ED;
+    color: #FFF;
 }
 
 .ico-twitter:hover{
@@ -139,29 +147,14 @@
 	 opacity: 0.8;
 }
 
-
-
-.ico-pinterest:hover, .ico-pinterest:focus{
-    color: #bd081c;
-  opacity: 0.8;
+.ico-linkedin{
+	color: #FFF;
 }
 
-.ico-gplus{
-    color: #d34836;
-}
-
-.ico-gplus:hover, .ico-gplus:focus{
-    color:  #d34836;
-    opacity:0.8
-}
-
-.ico-mail {
-    color: #25A3DC;
-}
-
-.ico-mail:hover{
-	color: #25A3DC;
+.ico-linkedin:hover{
+	color: #337ab7;
 	opacity: 0.8;
+
 }
 
 .bside{

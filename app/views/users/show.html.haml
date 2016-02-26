@@ -1,11 +1,11 @@
 .whitebg
-	#refer
+	#refer{style: "background-image: #{Setting.additional_image.present? ? 'url(' + asset_url(Setting.additional_image.url) + ');' : 'auto'}"}
 
 		.col-md-5.col-md-offset-1.col-sm-6.refer-left
-			#dino-top-left
-			#text-left
-				%h3 ESTAMOS CONSTRUYENDO EL PROVEEDOR DE LUZ IDEAL. MUY PRONTO CONOCERÁS NUESTROS PLANES.
-				#spacer
+		//	#dino-top-left
+		//	#text-left
+		//		%h3 ESTAMOS CONSTRUYENDO EL PROVEEDOR DE LUZ IDEAL. MUY PRONTO CONOCERÁS NUESTROS PLANES.
+		//		#spacer
 		.col-md-5.col-sm-6.col-xs-12
 			#copy
 				%h1 NO DEJES FUERA A TUS AMIGOS
