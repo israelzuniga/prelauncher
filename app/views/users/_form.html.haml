@@ -1,5 +1,5 @@
 .key_img
-%h4.primero ENTRA PARA CONOCER MÁS
+%h4.primero REGÍSTRATE PARA CONOCER MÁS
 = simple_form_for @user, html: {novalidate: false, class: "form-inline"} do |f|
 	= f.input :email, as: :email, label: false, placeholder: "Tu correo electrónico", input_html: {required: true}
 	= f.button :submit, "ENTRAR", class: "btn btn-branded"
