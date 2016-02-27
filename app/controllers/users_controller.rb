@@ -48,11 +48,11 @@ class UsersController < ApplicationController
 		if @user.save
 			cookies[:user_id] = @user.id
 			respond_to do |format|
-	            format.html {redirect_to user_path(@user.referral_code), notice: "INVICTUS 🌅 ¡Gracias por suscribirte!"}
+	            format.html {redirect_to user_path(@user.referral_code), notice: "INVICTUS 🌅 💕 ¡Gracias por suscribirte!"}
 	        end
 	    else
 			respond_to do |format|
-	            format.html {redirect_to root_path, alert: "No se permite la suscripción multiple desde el mismo dispositivo. 😱"}
+	            format.html {redirect_to root_path, alert: "Escribe un email válido! 😱 O invita a más personas! 👨‍👩‍👧‍👦"}
 	        end
 	    end
 	end
