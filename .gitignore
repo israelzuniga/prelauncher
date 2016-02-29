@@ -29,7 +29,3 @@ config/application.rb
 config/application.rb
 
 config/database.yml
-
-db/seeds.rb
-
-*.jpg
