@@ -14,8 +14,6 @@ class Share < ActiveRecord::Base
 	def facebook_link(root_url)
 		"https://www.facebook.com/sharer/sharer.php?u=#{user.referral_url(root_url)}&title=#{data[:facebook_title]}"
 	end
-
-
 	def twitter_link(root_url)
 		"https://twitter.com/intent/tweet?text=#{URI.escape(data[:twitter_message])}&url=#{user.referral_url(root_url)}"
 	end
@@ -23,6 +21,10 @@ class Share < ActiveRecord::Base
 	def linkedin_link(root_url)
 		"https://www.linkedin.com/shareArticle?mini=true&url=#{user.referral_url(root_url)}&title=#{data[:linkedin_title]}&summary=#{data[:linkedin_message]}&source="
 	end
+	def whatsapp_link(root_url)
+		"whatsapp://send?text=#{URI.escape(data[:whatsapp_message] + " " + user.referral_url(root_url))}"
+	end
+
 
 
 

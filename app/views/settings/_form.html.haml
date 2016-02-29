@@ -7,9 +7,6 @@
 	.form-group.form-group-sm
 		.col-sm-4
 			= f.input :additional_image, as: :file, label: "Referall cover"
-
-
-
 	%legend Twitter
 	.form-group.form-group-sm
 		.col-sm-4
@@ -21,12 +18,15 @@
 			= f.input :facebook_message, as: :string, label: "Message", placeholder: "Message", required: false
 			= f.input :facebook_title, as: :string, label: "Title", placeholder: "Title", required: false
 			= f.input :facebook_image, as: :file, label: "Facebook image"
-
 	%legend LinkedIn
 	.form-group.form-group-sm
 		.col-sm-4
 			= f.input :linkedin_title, as: :string, label: "Title", placeholder: "Title", required: false
 			= f.input :linkedin_message, as: :string, label: "Message", placeholder: "Message", required: false
+	%legend Whatsapp
+	.form-group.form-group-sm
+		.col-sm-4
+			= f.input :whatsapp_message, as: :string, label: "Message", placeholder: "Message", required: false
 
 
 

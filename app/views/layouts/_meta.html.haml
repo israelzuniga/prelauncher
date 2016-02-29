@@ -21,13 +21,6 @@
 - else
 	%meta{:content => request.original_url, :property => "og:url"}/
 
-// Google +
-%meta{:content => Setting.sharing["google_plus_title"], :itemprop => "name"}/
-%meta{:content => Setting.sharing["google_plus_message"], :itemprop => "description"}/
-- if Setting.google_plus_image.present?
-	%meta{:content => root_url + Setting.google_plus_image.url, :itemprop => "image"}/
-
-
 %meta{:content => "summary_large_image", :name => "twitter:card"}/
 %meta{:content => "@invictusmx", :name => "twitter:site"}/
 %meta{:content => "Invictus Próximamente", :name => "twitter:title"}/

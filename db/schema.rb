@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151125171932) do
+ActiveRecord::Schema.define(version: 20160229171932) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -53,8 +53,7 @@ ActiveRecord::Schema.define(version: 20151125171932) do
   create_table "settings", force: :cascade do |t|
     t.string   "facebook_message"
     t.string   "twitter_message"
-    t.text     "email_message"
-    t.string   "email_subject"
+    t.string   "whatsapp_message"
     t.string   "facebook_title"
     t.string   "facebook_image_file_name"
     t.string   "facebook_image_content_type"
@@ -69,21 +68,12 @@ ActiveRecord::Schema.define(version: 20151125171932) do
     t.integer  "additional_image_file_size"
     t.datetime "additional_image_updated_at"
     t.string   "status",                         default: "active"
-    t.string   "pinterest_image_file_name"
-    t.string   "pinterest_image_content_type"
-    t.integer  "pinterest_image_file_size"
-    t.datetime "pinterest_image_updated_at"
     t.string   "twitter_image_file_name"
     t.string   "twitter_image_content_type"
     t.integer  "twitter_image_file_size"
     t.datetime "twitter_image_updated_at"
-    t.string   "pinterest_description"
     t.string   "linkedin_title"
     t.string   "linkedin_message"
-    t.string   "google_plus_image_file_name"
-    t.string   "google_plus_image_content_type"
-    t.integer  "google_plus_image_file_size"
-    t.datetime "google_plus_image_updated_at"
   end
 
   create_table "shares", force: :cascade do |t|

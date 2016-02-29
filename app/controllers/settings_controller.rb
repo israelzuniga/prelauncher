@@ -11,9 +11,9 @@ class SettingsController < ApplicationController
 		setting = Setting.new(setting_params)
 
 		if setting.save
-			redirect_to settings_path, notice: "Settings have been updated" 
+			redirect_to settings_path, notice: "Settings have been updated"
 		else
-			redirect_to settings_path, notice: "Settings haven't been updated" 
+			redirect_to settings_path, notice: "Settings haven't been updated"
 		end
 	end
 
@@ -21,7 +21,7 @@ class SettingsController < ApplicationController
 		setting = Setting.find(params[:id])
 
 		if setting.update(setting_params)
-			redirect_to settings_path, notice: "Settings have been updated" 
+			redirect_to settings_path, notice: "Settings have been updated"
 		else
 			render :index, layout: "dashboard"
 		end
@@ -30,7 +30,7 @@ class SettingsController < ApplicationController
 	private
 
 	def setting_params
- 		params.require(:setting).permit(:facebook_title, :facebook_image, :facebook_message, :twitter_message, :email_message, :email_subject, :cover_image, :additional_image, :linkedin_message, :linkedin_title, :pinterest_image, :pinterest_description, :google_plus_image, :twitter_image)
-  	end 
+ 		params.require(:setting).permit(:facebook_title, :facebook_image, :facebook_message, :twitter_message, :whatsapp_message,  :cover_image, :additional_image, :linkedin_message, :linkedin_title, :twitter_image)
+  	end
 
 end
