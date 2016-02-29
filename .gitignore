@@ -33,3 +33,5 @@ config/database.yml
 db/seeds.rb
 
 *.jpg
+
+db/seeds.rb
