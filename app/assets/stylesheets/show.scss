@@ -103,12 +103,15 @@
  .btn{
  	text-align: center;
  	margin-left: 0px;
-	color: rgb(255, 111, 0);
-	background-color: rgb(255,255,255);
+	color: rgb(255, 255, 255);
+	background-color: transparent;
+	border-color: white;
+	border-style: solid;
+	border-width: thin;
 	font-family: "europa","Josefin Sans",sans-serif;
-	font-size: 15px;
-	font-style: normal;
-	font-weight: 400;
+	font-size: 17px;
+	font-style:  normal;;
+	font-weight: 500;
 	letter-spacing: 1px;
 	line-height: 19.2px;
  }
@@ -117,6 +120,7 @@
 	 margin-left: 0px;
  color: rgb(255,255,255);
  background-color: rgb(255, 111, 0);
+
  }
 
 }
