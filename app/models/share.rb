@@ -22,7 +22,7 @@ class Share < ActiveRecord::Base
 		"https://www.linkedin.com/shareArticle?mini=true&url=#{user.referral_url(root_url)}&title=#{data[:linkedin_title]}&summary=#{data[:linkedin_message]}&source="
 	end
 	def whatsapp_link(root_url)
-		"whatsapp://send?text=#{URI.escape(data[:whatsapp_message] + " " + user.referral_url(root_url))}"
+		"whatsapp://send?text=#{data[:whatsapp_message] + " " + user.referral_url(root_url)}"
 	end
 
 

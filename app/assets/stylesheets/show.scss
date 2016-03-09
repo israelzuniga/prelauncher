@@ -82,27 +82,44 @@
 		color: rgb(255, 255, 255);
 	}
 }
-#refer strong{
-  text-transform: uppercase;
+#refer{
+	strong{
+	 text-transform: uppercase;
+ }
+
+ input {
+ 		font-weight: bold;
+     height: 35px;
+     border-radius: 0px;
+     font-size: 14px;
+     width: 85%;
+     margin: 10px 0px 5px 50px;
+     text-align: center;
+     line-height: 30px;
+     color: rgb(0,0,0);
+     cursor: auto;
+     font-family: "futura-pt", 'Raleway', sans-serif;
+ }
+ .btn{
+ 	text-align: center;
+ 	margin-left: 0px;
+	color: rgb(255, 111, 0);
+	background-color: rgb(255,255,255);
+	font-family: "europa","Josefin Sans",sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 1px;
+	line-height: 19.2px;
+ }
+ .btn:hover{
+	 text-align: center;
+	 margin-left: 0px;
+ color: rgb(255,255,255);
+ background-color: rgb(255, 111, 0);
+ }
+
 }
-
-
-
-#refer input {
-		font-weight: bold;
-    height: 35px;
-    border-radius: 0px;
-    font-size: 14px;
-    width: 85%;
-    margin: 10px 0px 25px 50px;
-    text-align: center;
-    line-height: 30px;
-    color: rgb(98,98,98);
-    cursor: auto;
-    font-family: "futura-pt", 'Raleway', sans-serif;
-}
-
-
 
 #social-sharing {
     text-align: center;

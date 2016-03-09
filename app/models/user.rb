@@ -3,7 +3,7 @@ class User < ActiveRecord::Base
     has_many :referrals, class_name: "User", foreign_key: :referrer_id
     has_many :shares
 
-    validates :email, uniqueness: true, format: { with: Devise::email_regexp, message: "Invalid email format." }, presence: true
+    validates :email, uniqueness: true, format: { with: Devise::email_regexp, message: "La dirección de email no es válida." }, presence: true
     validates :ip_address, presence: true, uniqueness: true
 
     before_create :set_referral_code
@@ -20,12 +20,12 @@ class User < ActiveRecord::Base
         base = 0
 
         unless prize
-            return unit * (number_of_referrals.fdiv(targets[0])) 
+            return unit * (number_of_referrals.fdiv(targets[0]))
         end
 
-        targets.each_with_index do |value, index|  
+        targets.each_with_index do |value, index|
             if number_of_referrals >= value && value > 0
-                base += unit 
+                base += unit
             elsif index > 0
                 base += unit * (number_of_referrals - targets[index - 1]).fdiv(value - targets[index - 1])
                 break

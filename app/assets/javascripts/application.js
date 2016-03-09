@@ -14,10 +14,13 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require bootstrap
+//= require clipboard
 //= require_tree .
 
 
 $(document).ready(function(){
+	var clip = new Clipboard('.btn');
+	console.log(clip);
 	if ($(".alert").length > 0){
 		$(".alert").delay(3000).fadeOut()
 	}

@@ -12,3 +12,18 @@
 		%li
 			%a.foo_social.ico-linkedin{:href => @user.social_url("linkedin"), target: "_blank"}
 				%i.fa.fa-linkedin
+		%li
+			<button data-clipboard-target="#referalllink" class="btn">Copia tu liga</button>
+			:javascript
+				var clipboard = new Clipboard('.btn');
+				clipboard.on('success', function(e) {
+					console.info('Action:', e.action);
+					console.info('Text:', e.text);
+					console.info('Trigger:', e.trigger);
+					e.clearSelection();
+				});
+
+				clipboard.on('error', function(e) {
+					console.error('Action:', e.action);
+					console.error('Trigger:', e.trigger);
+				});

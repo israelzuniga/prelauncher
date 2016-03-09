@@ -45,6 +45,9 @@ gem "paperclip"
 gem 'will_paginate', '~> 3.0.6'
 gem 'will_paginate-bootstrap'
 
+# clipboard
+gem 'clipboard-rails'
+
 group :development, :test do
 
 end
